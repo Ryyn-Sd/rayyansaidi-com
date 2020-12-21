@@ -6,7 +6,7 @@ const App = () => {
   return (
     <>
       <Head>
-        <meta name="description" content="Here is a bio about the author: Rayyan. Click here for even more info!" />
+        <meta name="description" content="Click here for info about the author of the website" />
         <title>rayyansaidi.com</title>
       </Head>
     </>
