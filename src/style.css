@@ -9,7 +9,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(0, 0, 255);
+    background-color: navy;
 }
 
 li {
@@ -26,7 +26,7 @@ li a {
 
 .navbar a:hover:not(.active) {
     background-color: orange;
-    color: blue;
+    color: navy;
 }
 
 .active {
