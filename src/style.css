@@ -26,8 +26,10 @@ li a {
 
 .navbar a:hover:not(.active) {
     background-color: orange;
+    color: blue;
 }
 
 .active {
     background-color: rgb(255, 0, 0);
+    color: green;
 }
