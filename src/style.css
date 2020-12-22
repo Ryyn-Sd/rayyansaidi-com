@@ -5,6 +5,7 @@ body {
 }
 
 ul {
+    font-size: 40pt
     list-style-type: none;
     margin: 0;
     padding: 0;
