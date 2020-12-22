@@ -9,7 +9,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: navy;
+    background-color: blue;
 }
 
 li {
@@ -21,15 +21,15 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    color: yellow;
+    color: orange;
 }
 
 .navbar a:hover:not(.active) {
-    background-color: yellow;
-    color: navy;
+    background-color: orange;
+    color: blue;
 }
 
 .active {
-    background-color: red;
+    background-color: #eb0000;
     color: white;
 }
