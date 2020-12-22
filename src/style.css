@@ -1,3 +1,5 @@
+
+
 body {
     margin: 0;
     padding: 0;
@@ -9,27 +11,26 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: blue;
+    background-color: black;
 }
 
 li {
     float: left;
 }
 
-li a {
+li a, li .heading {
     display: block;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    color: orange;
+    color: white;
 }
 
 .navbar a:hover:not(.active) {
-    background-color: orange;
-    color: blue;
+    background-color: #333;
+    color: white;
 }
 
 .active {
     background-color: #eb0000;
-    color: white;
 }
