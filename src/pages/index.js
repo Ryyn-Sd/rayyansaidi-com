@@ -8,6 +8,7 @@ const App = () => {
       <Head>
         <meta name="description" content="Click here for a bio and the projects about the author of the website" />
         <title>rayyansaidi.com</title>
+        <html lang="en" />
       </Head>
       <Nav act={1}/>
       <h1>Home</h1>
