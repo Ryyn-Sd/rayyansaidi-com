@@ -39,4 +39,4 @@ a {color: #eb0000;}
     background-color: #eb0000;
 }
 
-@media (max-width: 683px) {.nav {font-size: calc(100vw / 60);}}
+@media (max-width: 870px) {.nav {font-size: calc(100vw / 111);}}
