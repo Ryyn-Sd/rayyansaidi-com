@@ -3,7 +3,7 @@ import * as React from 'react'
 import "./style.css"
 
 const Nav = (props) =>
-    <ul>
+    <ul className="nav">
         <li className="navbar"><b><Link to="/" className={props.act === 1 ? "active" : null}>Home</Link></b></li>
         <li><b className="heading">Bio</b></li>
         <li className="navbar"><Link to="/bio/family" className={props.act === 2 ? "active" : null}>Family</Link></li>

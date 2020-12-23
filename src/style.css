@@ -4,7 +4,9 @@ body {
     text-align: center;
 }
 
-ul {
+ul {list-style-position: inside;}
+
+.nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -12,11 +14,11 @@ ul {
     background-color: black;
 }
 
-li {
+.nav li {
     float: left;
 }
 
-li a, li .heading {
+.nav li a, .nav li .heading {
     display: block;
     text-align: center;
     padding: 14px 16px;
@@ -26,7 +28,7 @@ li a, li .heading {
 
 a {color: #eb0000;}
 
-li .heading {color: #eb0000;}
+.nav li .heading {color: #eb0000;}
 
 .navbar a:hover:not(.active) {
     background-color: #333;
@@ -36,3 +38,5 @@ li .heading {color: #eb0000;}
 .active {
     background-color: #eb0000;
 }
+
+@media (max-width: 683px) {.nav {font-size: calc(100vw / 60);}}
