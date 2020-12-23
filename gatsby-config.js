@@ -4,13 +4,23 @@ module.exports = {
     siteUrl: "https://new.rayyansaidi.com"
   },
   plugins: [
+    "gatsby-plugin-offline",
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sharp",
     "gatsby-plugin-sitemap",
     {
       resolve: "gatsby-plugin-manifest",
       options: {
-        icon: "src/images/icon.png",
+        name: 'rayyansaidi.com',
+        short_name: 'rayyansaidi.com',
+        start_url: '/',
+        background_color: '#00fcff',
+        theme_color: '#eb0000',
+        display: 'standalone',
+        icon: './src/images/icon.png',
+        icon_options: {
+          purpose: 'any maskable'
+        }
       },
     },
     "gatsby-plugin-mdx",

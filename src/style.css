@@ -1,5 +1,3 @@
-
-
 body {
     margin: 0;
     padding: 0;
@@ -25,6 +23,10 @@ li a, li .heading {
     text-decoration: none;
     color: white;
 }
+
+a {color: #eb0000;}
+
+li .heading {color: #eb0000;}
 
 .navbar a:hover:not(.active) {
     background-color: #333;
