@@ -15,7 +15,7 @@ module.exports = {
         short_name: 'rayyansaidi.com',
         start_url: '/',
         background_color: '#00fcff',
-        theme_color: '#eb0000',
+        theme_color: '#c80000',
         display: 'standalone',
         icon: './src/images/icon.png',
         icon_options: {
