@@ -1,3 +1,17 @@
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+
+
 body {
     margin: 0;
     padding: 0;
@@ -12,10 +26,19 @@ ul, ol {list-style-position: inside;}
     padding: 0;
     overflow: hidden;
     background-color: black;
+    box-shadow: 10px 10px 10px gray;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 .nav li {
     float: left;
+}
+
+img {
+    margin: 0 auto;
 }
 
 .nav li a, .nav li .heading {
