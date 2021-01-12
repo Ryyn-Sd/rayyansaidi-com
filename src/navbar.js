@@ -12,8 +12,8 @@ const Nav = (props) =>
         <li><b className="heading">Projects</b></li>
         <li className="navbar"><Link to="/projects/saidigroup" className={props.act === 5 ? "active" : null}>Saidi Research Group</Link></li>
         <li className="navbar"><Link to="/projects/salamsaidi" className={props.act === 6 ? "active" : null}>Salamsaidi.com</Link></li>
-        <li className="navbar"><Link to="/projects/suggestions" className={props.act === 7 ? "active" : null}>Suggestions</Link></li>
-        <li className="navbar"><Link to="/projects/angunapah" className={props.act === 8 ? "active" : null}>Angunapah's website</Link></li>
+        <li className="navbar"><Link to="/projects/angunapah" className={props.act === 7 ? "active" : null}>Angunapah's website</Link></li>
+        <li className="navbar"><Link to="/projects/suggestions" className={props.act === 8 ? "active" : null}>Suggestions</Link></li>
     </ul>
 
 export default Nav
