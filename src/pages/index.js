@@ -15,6 +15,7 @@ const App = () => {
       <h1>Home</h1>
       <p>Welcome to Rayyansaidi.com! This is a place where you can find info about the author, Rayyan Saidi, and some of the projects that I am working on that will hopefully go on this website soon!</p>
       <br />
+      <hr />
       <br />
       <NathanChuAd />
     </>
