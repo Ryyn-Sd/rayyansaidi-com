@@ -22,9 +22,7 @@ export default function HTML(props) {
     _paq.push(['setSiteId', '1']);
     var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
     g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
-  })();`}}>
-
-        </script>
+  })();`}} />
       </head>
       <body {...props.bodyAttributes}>
         {props.preBodyComponents}
