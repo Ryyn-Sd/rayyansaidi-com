@@ -14,12 +14,8 @@ const Bio = () => (
     <hr />
     <h2>Were we come from</h2>
     <p>
-      Our family came from the middle east. My mom was born in Lebonan, and
-      moved to Senagal when she was around 4, right before the cival war started
-      there. My dad's dad was born in Syria and grew up there. His mom and he
-      was born in Lebonan. My dad ended up growing up during the war which
-      lasted 15 years! The houses right next to his house were unfortantly
-      bombed, and he was very lucky to still be alive!
+      Our family came from the middle east. My mom was born in Lebonan and moved to Senegal when she was around 4, right before the civil war started there. My granddad was born in Syria and grew up there. He and his mom were born in Lebonan. My dad ended up growing up during a war that lasted 15 years! The houses right next to his were disastrously
+      bombed, and he was lucky to be alive!
     </p>
     <hr />
     <h2>Family members</h2>
@@ -34,10 +30,9 @@ const Bio = () => (
         Person who made <a href="https://rayyansaidi.com/">rayyansaidi.com</a>{' '}
         and <a href="https://new.rayyansaidi.com/">new.rayyansaidi.com</a>
       </li>
-      <li>Oldest kid in this house</li>
+      <li>Oldest child in our house</li>
       <li>
-        Currently in 6th grade (You can find out more about this in the other
-        section in the navbar)
+        Currently in 6th grade
       </li>
     </ul>
     <h3>Salam Saidi</h3>
@@ -47,7 +42,7 @@ const Bio = () => (
         Creator of <a href="https://salamsaidi.com/">salamsaidi.com</a>, which
         I'm helping her on creating a faster version off
       </li>
-      <li>Youngest kid in our house</li>
+      <li>Youngest child in our house</li>
       <li>In 4th grade</li>
     </ul>
     <h3>Mom</h3>
@@ -59,16 +54,15 @@ const Bio = () => (
         </a>
       </li>
       <li>Salam's and my mother</li>
-      <li>Works as a Bio Engener</li>
+      <li>Works as a Biological Engineer</li>
     </ul>
     <h3>Dad</h3>
     <ul>
       <li>
-        Principle of the{' '}
-        <a href="http://saidigroup.pitt.edu/">Saidi Research group</a>
+        Principle of the <a href="http://saidigroup.pitt.edu/">Saidi Research group</a>
       </li>
       <li>Salam's and my father</li>
-      <li>Works as a Machanical Engenir</li>
+      <li>Works as a Machanical Engineer</li>
     </ul>
     <h3>Grandma</h3>
     <ul>
@@ -89,7 +83,7 @@ const Bio = () => (
     <h3>Places I'd like to go to:</h3>
     <ol>
       <li>
-        California because I'd like to know what the worm weather is like, and
+        California because I'd like to know what the warm weather is like, and
         I'm sure it must be nice
       </li>
       <li>
@@ -125,12 +119,7 @@ const Bio = () => (
     <hr />
     <h2>COVID-19 Pandemic</h2>
     <p>
-      I spent all of 2020 and the predictions say 1/2 of 2021 during a pandemic
-      that is deadly. It was difficult because no body was going to work because
-      of fear of getting the desise, which meant that nobody had the mony and
-      buisnesses were struggling. It only got worse when a lot of black people
-      got killed by police, and now there is a racial crises. This is just part
-      of the reason why nobody was able to wait for 2021!
+      I spent all of 2020, and the predictions say half of 2021, during a deadly pandemic. It was difficult because nobody went to work because of fear of getting the disease, which meant nobody had the money, and businesses were struggling. It only got worse when many black people got killed by police, and now there is a racial crisis.
     </p>
   </>
 );
