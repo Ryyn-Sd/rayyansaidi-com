@@ -1,63 +1,76 @@
 :root {
-    --accent: #eb0000;
-    --nav-backround: black;
-    --shadow-color: rgba(0, 0, 0, 0.4); 
-    --nav-color: white;
-    --hover-background: #333;
+  --accent: #eb0000;
+  --nav-backround: black;
+  --shadow-color: rgba(0, 0, 0, 0.4);
+  --nav-color: white;
+  --hover-background: #333;
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    font-family: Raleway, sans-serif;
-    font-weight: 300;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: Raleway, sans-serif;
+  font-weight: 300;
 }
 
-ul, ol {list-style-position: inside;}
+ul,
+ol {
+  list-style-position: inside;
+}
 
 .nav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: var(--nav-backround);
-    box-shadow: 10px 10px 10px 10px var(--shadow-color);
-    position: sticky;
-    top: 0;
-    left: 0;
-    right: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: var(--nav-backround);
+  box-shadow: 10px 10px 10px 10px var(--shadow-color);
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 .nav li {
-    float: left;
+  float: left;
 }
 
 img {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 .nav li a {
-    display: block;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    color: var(--nav-color);
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: var(--nav-color);
 }
 
-a {color: var(--accent);}
+a {
+  color: var(--accent);
+}
 
-.nav li .heading {color: var(--accent);}
+.nav li .heading {
+  color: var(--accent);
+}
 
 .navbar a:hover:not(.active) {
-    background-color: var(--hover-background);
+  background-color: var(--hover-background);
 }
 
 .active {
-    background-color: var(--accent);
+  background-color: var(--accent);
 }
 
-h1, h2, h3, h4, h5, h6, .nav {
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 400;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.nav {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
 }

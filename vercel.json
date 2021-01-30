@@ -1,8 +1,8 @@
 {
-    "public": true,
-    "cleanUrls": true,
-    "trailingSlash": false,
-    "github": {
-        "silent": true
-    }
+  "public": true,
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "github": {
+    "silent": true
+  }
 }

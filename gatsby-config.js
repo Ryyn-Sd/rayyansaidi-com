@@ -1,15 +1,15 @@
 module.exports = {
   siteMetadata: {
-    title: "rayyansaidi.com",
-    siteUrl: "https://new.rayyansaidi.com"
+    title: 'rayyansaidi.com',
+    siteUrl: 'https://new.rayyansaidi.com'
   },
   plugins: [
-    "gatsby-plugin-offline",
-    "gatsby-plugin-react-helmet",
-    "gatsby-plugin-sharp",
-    "gatsby-plugin-sitemap",
+    'gatsby-plugin-offline',
+    'gatsby-plugin-react-helmet',
+    'gatsby-plugin-sharp',
+    'gatsby-plugin-sitemap',
     {
-      resolve: "gatsby-plugin-manifest",
+      resolve: 'gatsby-plugin-manifest',
       options: {
         name: 'rayyansaidi.com',
         short_name: 'rayyansaidi.com',
@@ -21,32 +21,30 @@ module.exports = {
         icon_options: {
           purpose: 'any maskable'
         }
-      },
+      }
     },
     {
       resolve: 'gatsby-plugin-mdx',
       options: {
-        gatsbyRemarkPlugins: [
-          'gatsby-remark-images'
-        ]
+        gatsbyRemarkPlugins: ['gatsby-remark-images']
       }
     },
-    "gatsby-transformer-sharp",
+    'gatsby-transformer-sharp',
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: 'gatsby-source-filesystem',
       options: {
-        name: "images",
-        path: "./src/images/",
+        name: 'images',
+        path: './src/images/'
       },
-      __key: "images",
+      __key: 'images'
     },
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: 'gatsby-source-filesystem',
       options: {
-        name: "pages",
-        path: "./src/pages/",
+        name: 'pages',
+        path: './src/pages/'
       },
-      __key: "pages",
-    },
-  ],
+      __key: 'pages'
+    }
+  ]
 };
