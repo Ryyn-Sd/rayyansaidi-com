@@ -1,5 +1,9 @@
 :root {
     --accent: #eb0000;
+    --nav-backround: black;
+    --shadow-color: rgba(0, 0, 0, 0.4); 
+    --nav-color: white;
+    --hover-background: #333;
 }
 
 body {
@@ -17,8 +21,8 @@ ul, ol {list-style-position: inside;}
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: black;
-    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.4);
+    background-color: var(--nav-backround);
+    box-shadow: 10px 10px 10px 10px var(--shadow-color);
     position: sticky;
     top: 0;
     left: 0;
@@ -33,12 +37,12 @@ img {
     margin: 0 auto;
 }
 
-.nav li a, .nav li .heading {
+.nav li a {
     display: block;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    color: white;
+    color: var(--nav-color);
 }
 
 a {color: var(--accent);}
@@ -46,8 +50,7 @@ a {color: var(--accent);}
 .nav li .heading {color: var(--accent);}
 
 .navbar a:hover:not(.active) {
-    background-color: #333;
-    color: white;
+    background-color: var(--hover-background);
 }
 
 .active {
