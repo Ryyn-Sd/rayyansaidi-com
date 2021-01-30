@@ -1,3 +1,7 @@
+:root {
+    --accent: #eb0000;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -37,9 +41,9 @@ img {
     color: white;
 }
 
-a {color: #eb0000;}
+a {color: var(--accent);}
 
-.nav li .heading {color: #eb0000;}
+.nav li .heading {color: var(--accent);}
 
 .navbar a:hover:not(.active) {
     background-color: #333;
@@ -47,7 +51,7 @@ a {color: #eb0000;}
 }
 
 .active {
-    background-color: #eb0000;
+    background-color: var(--accent);
 }
 
 h1, h2, h3, h4, h5, h6, .nav {
