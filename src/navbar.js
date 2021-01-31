@@ -2,25 +2,25 @@ import { Link } from 'gatsby';
 import React from 'react';
 import './style.css';
 
-const Nav = (props) => (
+const Nav = () => (
   <ul className="nav">
     <li className="navbar">
-      <Link to="/" className={props.act === 1 ? 'active' : null}>
+      <Link to="/" activeClassName="active">
         Home
       </Link>
     </li>
     <li className="navbar">
-      <Link to="/bio" className={props.act === 2 ? 'active' : null}>
+      <Link to="/bio" activeClassName="active">
         Bio
       </Link>
     </li>
     <li className="navbar">
-      <Link to="/projects" className={props.act === 3 ? 'active' : null}>
+      <Link to="/projects" activeClassName="active">
         Projects
       </Link>
     </li>
     <li className="navbar">
-      <Link to="/suggestions" className={props.act === 4 ? 'active' : null}>
+      <Link to="/suggestions" activeClassName="active">
         Suggestions
       </Link>
     </li>

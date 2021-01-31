@@ -4,7 +4,7 @@ import { Helmet as Head } from 'react-helmet';
 
 const Bio = () => (
   <>
-    <Nav act={2} />
+    <Nav />
     <Head>
       <title>rayyansaidi.com</title>
       <html lang="en" />
@@ -12,38 +12,38 @@ const Bio = () => (
 
     <h1>Family</h1>
     <hr />
-    <h2>Were we come from</h2>
+    <h2>History</h2>
     <p>
       Our family came from the middle east. My mom was born in Lebonan and moved to Senegal when she was around 4, right before the civil war started there. My granddad was born in Syria and grew up there. He and his mom were born in Lebonan. My dad ended up growing up during a war that lasted 15 years! The houses right next to his were disastrously
       bombed, and he was lucky to be alive!
     </p>
     <hr />
-    <h2>Family members</h2>
+    <h2>Members</h2>
     <p>
-      I have one sister, a dad and a mom, and my amazing grandma living with me.
+      I have one sister, a dad and mom, and my amazing grandma living with me.
       Here are some details about them:
     </p>
     <h3>Rayyan Saidi (That's me!)</h3>
     <ul>
       <li>11 years old</li>
       <li>
-        Person who made <a href="https://rayyansaidi.com/">rayyansaidi.com</a>{' '}
+        The person who made <a href="https://rayyansaidi.com/">rayyansaidi.com</a>{' '}
         and <a href="https://new.rayyansaidi.com/">new.rayyansaidi.com</a>
       </li>
-      <li>Oldest child in our house</li>
+      <li>The oldest child in our house</li>
       <li>
-        Currently in 6th grade
+        Currently in sixth grade
       </li>
     </ul>
     <h3>Salam Saidi</h3>
     <ul>
-      <li>9 years old</li>
+      <li>Nine years old</li>
       <li>
-        Creator of <a href="https://salamsaidi.com/">salamsaidi.com</a>, which
-        I'm helping her on creating a faster version off
+        The creator of <a href="https://salamsaidi.com/">salamsaidi.com</a>, which
+        I'm helping her on creating a faster version of
       </li>
       <li>Youngest child in our house</li>
-      <li>In 4th grade</li>
+      <li>In fourth grade</li>
     </ul>
     <h3>Mom</h3>
     <ul>
@@ -62,11 +62,11 @@ const Bio = () => (
         Principle of the <a href="http://saidigroup.pitt.edu/">Saidi Research group</a>
       </li>
       <li>Salam's and my father</li>
-      <li>Works as a Machanical Engineer</li>
+      <li>Works as a Mechanical Engineer</li>
     </ul>
     <h3>Grandma</h3>
     <ul>
-      <li>A wonderfull cook</li>
+      <li>A wonderful cook</li>
       <li>Salam's and my grandma</li>
       <li>Great Knitter</li>
       <li>Best grandma ever</li>
@@ -75,9 +75,9 @@ const Bio = () => (
     <h1>Favorites</h1>
     <hr />
     <h2>Favorite places to visit:</h2>
-    <h3>Places I've went to:</h3>
+    <h3>Places I've gone to:</h3>
     <ol>
-      <li>Florida because that is were all my family lives</li>
+      <li>Florida because that is where all my family lives</li>
       <li>Canada because I enjoy the cold weather up there and the snow</li>
     </ol>
     <h3>Places I'd like to go to:</h3>
@@ -105,7 +105,7 @@ const Bio = () => (
     <ol>
       <li>Summer because I enjoy not having school and having more freedom</li>
       <li>Winter because that means a lot of snow</li>
-      <li>Fall because there isn't anything thats bad or good</li>
+      <li>Fall because there isn't anything bad or good</li>
       <li>Spring because of my allergies</li>
     </ol>
     <hr />

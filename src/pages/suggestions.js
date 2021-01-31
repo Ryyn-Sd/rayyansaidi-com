@@ -4,7 +4,7 @@ import { Helmet as Head } from 'react-helmet';
 
 const Suggestions = () => (
   <>
-    <Nav act={4} />
+    <Nav />
     <Head>
       <title>rayyansaidi.com</title>
       <html lang="en" />
