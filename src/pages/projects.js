@@ -4,7 +4,7 @@ import { Helmet as Head } from 'react-helmet';
 
 const Projects = () => (
   <>
-    <Nav />
+    <Nav act={3} />
     <Head>
       <title>rayyansaidi.com</title>
       <html lang="en" />
@@ -17,7 +17,7 @@ const Projects = () => (
     <p>
       <a href="http://saidigroup.pitt.edu/">Saidi Research Group</a> is a
       website that shows the work that my dad has done. It was coded by his
-      brother, however, my dad doesn't like the design, so I am helping him
+      brother, however my dad doesn't like the design, so I am helping him
       re-code it.
     </p>
     <br />
@@ -68,18 +68,16 @@ const Projects = () => (
       He is a person on GitHub which is a software to make things open source.
       GitHub has many projects on it such as WordPress which is a software to
       make websites, Swift which is the language used to code apps on iPadOS and
-      iOS, and even rayyansaidi.com (and you probably already know what rayyansaidi.com is
+      iOS, and even rayyansaidi.com (and you probally already know what that is
       because you are looking at it right now)!
     </p>
     <br />
-    <h2>Well, what has he created?</h2>
+    <h2>Well what has he created?</h2>
     <p>
-      <a href="https://github.com/angunapuh/">angunapuh</a> is a person who has
-      created several projects such as github readme stats which shows you stats
-      about any user, and now he wants me to help him on his website!
+      <a href="https://github.com/angunapuh">angunapuh</a> is a person who is mostly working on his website. He is still learning how to code.
     </p>
     <br />
-    <h2>Where can the website be found?</h2>
+    <h2>Were can the website be found?</h2>
     <p>
       <a href="https://angunapuh.github.io/">Right here!</a> which already has
       some work done on it :)
