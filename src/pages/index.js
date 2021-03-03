@@ -20,6 +20,7 @@ const App = () => (
     </p>
     <br />
     <hr />
+    <h1>Advertisment</h1>
     <br />
     <NathanChuAd />
   </>

@@ -20,6 +20,11 @@ const Nav = () => (
       </Link>
     </li>
     <li className="navbar">
+      <Link to="/blog" activeClassName="active">
+        Bio
+      </Link>
+    </li>
+    <li className="navbar">
       <Link to="/suggestions" activeClassName="active">
         Suggestions
       </Link>

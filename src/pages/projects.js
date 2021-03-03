@@ -4,7 +4,7 @@ import { Helmet as Head } from 'react-helmet';
 
 const Projects = () => (
   <>
-    <Nav act={3} />
+    <Nav />
     <Head>
       <title>rayyansaidi.com</title>
       <html lang="en" />
