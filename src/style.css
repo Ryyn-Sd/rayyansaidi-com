@@ -14,8 +14,7 @@ body {
   font-weight: 300;
 }
 
-ul,
-ol {
+ul, ol {
   list-style-position: inside;
 }
 
