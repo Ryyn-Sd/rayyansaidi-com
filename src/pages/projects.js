@@ -82,6 +82,11 @@ const Projects = () => (
       <a href="https://angunapuh.github.io/">Right here!</a> which already has
       some work done on it :)
     </p>
+    <hr />
+    <h1>Discord Bots</h1>
+    <hr />
+    <h2>What is Discord?</h2>
+    <p><a href="https://discord.com/">Discord</a> is a way to comunicate with others with amazing calling, great chatting, and many other benifets. Not only that, you can code a bot with them.</p>
   </>
 );
 
