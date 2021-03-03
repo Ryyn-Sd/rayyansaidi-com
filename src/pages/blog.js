@@ -4,7 +4,7 @@ import { Helmet as Head } from 'react-helmet';
 
 const Blog = () => (
     <>
-        
+        <Nav />
     </>
 )
 

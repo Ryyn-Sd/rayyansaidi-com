@@ -23,12 +23,6 @@ module.exports = {
         }
       }
     },
-    {
-      resolve: 'gatsby-plugin-mdx',
-      options: {
-        gatsbyRemarkPlugins: ['gatsby-remark-images']
-      }
-    },
     'gatsby-transformer-sharp',
     {
       resolve: 'gatsby-source-filesystem',
@@ -45,6 +39,21 @@ module.exports = {
         path: './src/pages/'
       },
       __key: 'pages'
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'pages',
+        path: './blog/'
+      },
+    },
+    {
+      resolve: 'gatsby-transformer-remark',
+      options: {
+        plugins: [
+          'gatsby-remark-images'
+        ]
+      }
     }
   ]
 };

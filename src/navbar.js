@@ -21,7 +21,7 @@ const Nav = () => (
     </li>
     <li className="navbar">
       <Link to="/blog" activeClassName="active">
-        Bio
+        Blog
       </Link>
     </li>
     <li className="navbar">
