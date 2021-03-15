@@ -19,11 +19,6 @@ const Nav = () => (
         Projects
       </Link>
     </li>
-    <li className="navbar">
-      <Link to="/suggestions" activeClassName="active">
-        Suggestions
-      </Link>
-    </li>
   </ul>
 );
 
