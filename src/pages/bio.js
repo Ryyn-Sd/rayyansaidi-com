@@ -103,7 +103,7 @@ const Bio = () => (
     <hr />
     <h2>Favorite to least favorite seasons:</h2>
     <ol>
-      <li>Summer because I enjoy not having school and having more freedom</li>
+      <li>Summer because I enjoy not having school and being able to go on vacation</li>
       <li>Winter because that means a lot of snow</li>
       <li>Fall because there isn't anything bad or good</li>
       <li>Spring because of my allergies</li>
@@ -119,7 +119,7 @@ const Bio = () => (
     <hr />
     <h2>COVID-19 Pandemic</h2>
     <p>
-      I spent all of 2020, and the predictions say half of 2021, during a deadly pandemic. It was difficult because nobody went to work because of fear of getting the disease, which meant nobody had the money, and businesses were struggling. It only got worse when many black people got killed by police, and now there is a racial crisis.
+      I am spending all of 2020, and half of 2021, during a deadly pandemic. It is difficult because nobody went to work because of fear of getting the disease, which meant nobody had money, and businesses were struggling. It only got worse when many black people started getting killed by police becasue of their race, and now there is a racial crisis.
     </p>
   </>
 );
